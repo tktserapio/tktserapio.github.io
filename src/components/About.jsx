@@ -40,10 +40,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        I'm a Computer Science undergraduate student at Brown University. I am
+        interested in integrating AI and design to develop software to address
+        problems in my community.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

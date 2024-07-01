@@ -8,21 +8,20 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
+  java,
+  swift,
   meta,
   starbucks,
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
   threejs,
+  python,
+  matttr,
+  streamlinesets,
 } from "../assets";
 
 export const navLinks = [
@@ -81,20 +80,20 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "python",
+    icon: python,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "swift",
+    icon: swift,
   },
   {
     name: "Three JS",
@@ -103,14 +102,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -219,37 +210,37 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Streamline Sets",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Workout app that offers personalized exercises to swimmers. Also trained a machine learning (ML) video action classifier model -- 90.2% accuracy -- to detect exercise form.",
     tags: [
       {
-        name: "react",
+        name: "ML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "swift",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "swiftui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: streamlinesets,
+    source_code_link: "https://github.com/tktserapio/StreamlineSets",
   },
   {
-    name: "Trip Guide",
+    name: "Matttr",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A platform for debaters that features condensed transcriptions of arguments on various motions. It uses Natural Language Processing (NLP) to automate transcription of speeches.",
     tags: [
       {
-        name: "nextjs",
+        name: "NLP",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +248,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: matttr,
+    source_code_link: "https://github.com/tktserapio/matttr/",
   },
 ];
 
