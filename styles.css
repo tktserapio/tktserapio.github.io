@@ -104,7 +104,7 @@ nav a:hover {
 
 .profile-img {
     width: 320px;
-    height: 420px;
+    height: 320px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
@@ -245,7 +245,7 @@ section.content-section {
 
     .profile-img {
         width: 280px;
-        height: 350px;
+        height: 280px;
     }
 
     .social-links {
