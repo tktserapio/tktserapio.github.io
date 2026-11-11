@@ -25,7 +25,7 @@ body {
 /* Floating Centered Header */
 header {
     position: fixed;
-    top: 20px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
     max-width: 700px;
@@ -133,10 +133,11 @@ nav a:hover {
     font-weight: 600;
 }
 
-/* Social Icons */
+/* Social links */
 .social-links {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 12px 20px;
     margin-top: 30px;
 }
 
@@ -146,16 +147,16 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    white-space: nowrap;
 }
 
-.social-links a:hover {
+.social-links a:hover,
+.social-links a:focus-visible {
     color: var(--text-main);
-}
-
-.social-links i {
-    font-size: 24px;
-    line-height: 1;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 /* --- General Section Styling (Research & Projects) --- */
@@ -257,7 +258,7 @@ section.content-section {
     }
 
     header {
-        top: 12px;
+        top: 24px;
         padding: 12px 20px;
         max-width: calc(100% - 24px);
         border-radius: 40px;
